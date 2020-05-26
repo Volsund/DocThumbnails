@@ -2,22 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc3cdedc-0000-4dd3-b66c-154c30ebc59a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/FileUploadController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/02a10495-5083-4d55-a948-01217d91ef02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/02a10495-5083-4d55-a948-01217d91ef02.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/doc-thumbnails.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/doc-thumbnails.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ShowAllDocsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ShowAllDocsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise_0/solutions.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise_1/solutions.php" beforeDir="false" />
     </list>
@@ -26,7 +23,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -129,6 +126,8 @@
       <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
       <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/spatie/pdf-to-image" />
     </include_path>
   </component>
   <component name="ProjectId" id="1cLWxGYmLfHrpElbTMqHvY7N4tD" />
@@ -143,7 +142,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Learn/laracasts_projects/laravel-from-scratch/blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CODELEX_projects/20-05_codelex/laravel-todo" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -163,6 +162,12 @@
       <option name="presentableId" value="Default" />
       <updated>1590308598117</updated>
       <workItem from="1590308599355" duration="2149000" />
+      <workItem from="1590329092464" duration="4854000" />
+      <workItem from="1590488423289" duration="77000" />
+      <workItem from="1590488546625" duration="198000" />
+      <workItem from="1590488763814" duration="478000" />
+      <workItem from="1590491951021" duration="4493000" />
+      <workItem from="1590502116036" duration="6321000" />
     </task>
     <servers />
   </component>
@@ -174,13 +179,17 @@
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
     <state x="579" y="214" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1590309323897" />
-    <state x="767" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590310320552">
+    <state x="717" y="310" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1590332513870">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
-    <state x="767" y="310" width="424" height="484" key="FileChooserDialogImpl/49.27.1871.1053@49.27.1871.1053" timestamp="1590310320552" />
-    <state x="647" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1590310719628">
+    <state x="717" y="310" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1590332513870" />
+    <state x="767" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590507065080">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
-    <state x="647" y="257" width="672" height="678" key="search.everywhere.popup/49.27.1871.1053@49.27.1871.1053" timestamp="1590310719628" />
+    <state x="767" y="310" width="424" height="484" key="FileChooserDialogImpl/49.27.1871.1053@49.27.1871.1053" timestamp="1590507065080" />
+    <state x="647" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1590507048873">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="647" y="257" width="672" height="678" key="search.everywhere.popup/49.27.1871.1053@49.27.1871.1053" timestamp="1590507048873" />
   </component>
 </project>

@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/','ShowAllDocsController');
+Route::post('/file-upload', 'FileUploadController@fileUploadPost')->name('file.upload.post');

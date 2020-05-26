@@ -18,6 +18,10 @@
 <main>
     @yield('content')
 </main>
-
+<footer class="footer text-center ">
+    <div class="container footer-text">
+        <span class="text-muted ">EdgarsJ @ 2020</span>
+    </div>
+</footer>
 </body>
 </html>
