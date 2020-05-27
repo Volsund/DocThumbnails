@@ -2,19 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc3cdedc-0000-4dd3-b66c-154c30ebc59a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/FileUploadController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/02a10495-5083-4d55-a948-01217d91ef02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/02a10495-5083-4d55-a948-01217d91ef02.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/doc-thumbnails.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/doc-thumbnails.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ShowAllDocsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ShowAllDocsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/thumbnails/1590504379.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/thumbnails/1590504384.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/thumbnails/1590504390.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/thumbnails/1590505575.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/thumbnails/1590506171.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/thumbnails/1590506487.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/thumbnails/1590506574.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/thumbnails/1590506584.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/thumbnails/1590508163.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/1590504379.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/1590504384.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/1590504390.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/1590505575.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/1590506171.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/1590506487.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/1590506574.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/1590506584.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/1590508163.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise_0/solutions.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise_1/solutions.php" beforeDir="false" />
     </list>
@@ -142,7 +147,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CODELEX_projects/20-05_codelex/laravel-todo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -168,6 +173,7 @@
       <workItem from="1590488763814" duration="478000" />
       <workItem from="1590491951021" duration="4493000" />
       <workItem from="1590502116036" duration="6321000" />
+      <workItem from="1590571021534" duration="322000" />
     </task>
     <servers />
   </component>
