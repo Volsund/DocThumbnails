@@ -19,6 +19,8 @@ Possibility to upload .pdf document.
 
 Preview after clicking on thumbnail and the possibility to download.
 
+![Alt Text](https://media.giphy.com/media/ZE5TWclP6GKL40ehsy/giphy.gif)
+
 
 ## ToDo Improvements
 1. Fix file storage, so files are not stored directly in the public maps.
